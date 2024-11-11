@@ -16,7 +16,7 @@ Exploring options for plots that can be used in [obsidian](https://obsidian.md) 
 - [ ] [termgraph](https://github.com/sgeisler/termgraph)
 - [ ] [plotille](https://github.com/sgeisler/termgraph)
 - [ ] [termcharts](https://pypi.org/project/termcharts/)
-- [ ] [plotext](https://github.com/piccolomo/plotext)
+- [x] [plotext](https://github.com/piccolomo/plotext)
 
 credit for findign the majority of these tools goes to [Sourav De](https://medium.com/@SrvZ) for this article: [How to Create Stunning Graphs in the Terminal with Python](https://medium.com/@SrvZ/how-to-create-stunning-graphs-in-the-terminal-with-python-2adf9d012131)
 
@@ -27,3 +27,7 @@ credit for findign the majority of these tools goes to [Sourav De](https://mediu
 This one is a matplotlib backend which means that I *should* be able to seamlessly switch between ascii and graphical plots just by changing the plotting backend. That seems pretty useful. Need to try plugging this in to several existing projects with plots to see if it hold true.
 
 Monochrome looks reasonable so far. Bar plots and line graphs are usable. The scatter plot is just hard without color.
+
+### [plotext](https://github.com/piccolomo/plotext)
+
+Simple plots in this look really promsing. Need to figure out if we can change the markers to make this work in monochrome.
