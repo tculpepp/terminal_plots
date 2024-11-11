@@ -1,6 +1,5 @@
 {
 	"name": "Jupyter Dev Arch",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "jupyter_dev_m1",
 	"runArgs": [
 		"--name","mpl_ascii_dev_m1"
