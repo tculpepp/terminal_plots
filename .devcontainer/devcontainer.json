@@ -1,0 +1,20 @@
+{
+	"name": "Jupyter Dev Arch",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "jupyter_dev_m1",
+	"runArgs": [
+		"--name","mpl_ascii_dev_m1"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mechatroner.rainbow-csv",
+				"ms-python.python",
+				"rangav.vscode-thunder-client",
+				"ms-toolsai.jupyter",
+				"ms-python.black-formatter"
+			]
+		}
+	},
+	"postCreateCommand": "pip install tabulate mpl_ascii"
+}
