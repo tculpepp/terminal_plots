@@ -15,5 +15,5 @@
 			]
 		}
 	},
-	"postCreateCommand": "pip install tabulate mpl_ascii"
+	"postCreateCommand": "pip install tabulate mpl_ascii plotext"
 }
